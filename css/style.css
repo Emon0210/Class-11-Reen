@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/***************************************
+
+        header-section css start 
+
+*****************************************/
+
+
+.header-section {
+
+    width: 100%;
+}
+
+
+
+/*********************** Top Menu **********************/
+
+
+.header-section .top-menu {
+    width: 100%;
+    background-color: #f5f7fa;
+
+    padding: 28px 0px 1px 0px;
+}
+
+.header-section .top-menu .container {
+
+    padding: 0px 0px 10px 0px;
+
+
+}
+
+
+.header-section .top-menu .container .row {
+
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.header-section .top-menu .container .row .col-6 {
+
+    text-decoration: none;
+    list-style-type: none;
+
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.header-section .top-menu .container .row .col-6 .info-inner {
+
+    width: 100%;
+    margin-left: -60px;
+
+
+
+}
+
+.header-section .top-menu .container .row .col-6 .info-inner ul {
+
+    display: flex;
+}
+
+.header-section .top-menu .container .row .col-6 .info-inner ul li {
+
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+.header-section .top-menu .container .row .col-6 .info-inner ul li a {
+
+    text-decoration: none;
+    margin-right: 5px;
+    color: #506a85;
+    font-weight: 700;
+}
+
+
+.header-section .top-menu .container .row .col-6 .info-inner ul li a i {
+
+    margin-right: 1px;
+    font-size: 20px;
+}
+
+
+
+
+
+.header-section .top-menu .container .row .col-6 .social-menu {
+
+
+
+    display: flex;
+
+    max-width: 50%;
+    margin-left: 300px;
+    text-align: right;
+
+}
+
+
+
+
+.header-section .top-menu .container .row .col-6 .social-menu li {
+
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px
+}
+
+
+
+
+
+.header-section .top-menu .container .row .col-6 .social-menu li a {
+
+    font-weight: 700;
+    color: #506a85;
+
+}
+
+
+
+
+
+
+
+
+/**************************** Main Menu *******************/
+
+
+.header-section .main-menu {
+    width: 100%;
+    background-color: #fff !important;
+
+
+}
+
+
+
+
+.header-section .main-menu .navbar {
+    width: 100%;
+    background-color: transparent !important;
+    padding: 25px 0px;
+
+
+
+}
+
+
+.header-section .main-menu .navbar .container {
+
+    justify-content: space-between;
+
+}
+
+
+
+
+.header-section .main-menu .navbar .container a {}
+
+
+
+
+.header-section .main-menu .navbar .container a img {
+
+    vertical-align: middle;
+    border-style: none;
+
+}
+
+
+
+.header-section .main-menu .navbar .container .navbar-toggler {
+
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+
+}
+
+
+.header-section .main-menu .navbar .container .navbar-collapse {
+
+
+    display: flex !important;
+
+    flex-basis: auto;
+}
+
+
+
+.header-section .main-menu .navbar .container .navbar-collapse .navbar-nav {}
+
+
+
+.header-section .main-menu .navbar .container .navbar-collapse .navbar-nav .nav-item {
+
+    padding: 0px 5px;
+
+}
+
+
+
+.header-section .main-menu .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition: .5s;
+}
+
+.header-section .main-menu .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+
+    color: #7bd4c1;
+
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+/***************************************
+
+        header-section css end 
+
+*****************************************/
+
+
+/***************************************
+
+        Banner-section css start 
+
+*****************************************/
+
+
+.banner-section {}
+
+
+
+/* .banner-section .container{
+
+ 
+} */
+
+
+.banner-section .owl-carousel {}
+
+.banner-section .owl-carousel .item {
+
+    width: 100%;
+}
+
+
+.banner-section .owl-carousel .item img {
+
+    height: 84vh;
+}
+
+
+
+
+.banner-section .owl-carousel .item .carousel-caption {
+    bottom: 30%;
+
+}
+
+
+
+
+.banner-section .owl-carousel .item .carousel-caption h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+
+.banner-section .owl-carousel .item .carousel-caption p {
+
+    width: 69%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+    margin: 0px auto 60px;
+}
+
+
+
+
+.banner-section .owl-carousel .item .carousel-caption a {
+    background-color: #00bc9c;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+.banner-section .owl-carousel .item .carousel-caption a:hover {
+    color: #00bc9c;
+    background-color: transparent;
+    border-color: #17a2b8;
+    transition: 0.5s;
+}
+
+
+
+
+
+.banner-section .owl-carousel .item .carousel-caption a .btn {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+
+}
+
+
+.banner-section .owl-carousel .item .carousel-caption a .btn:hover {
+    color: #00bc9c;
+    background-color: transparent;
+    border-color: #17a2b8;
+
+}
+
+
+/***************************************
+
+        Banner-section css end 
+
+*****************************************/
+
+
+
+
+/***************************************
+
+        Description-section css start 
+
+*****************************************/
+
+
+
+
+
+.description-section {
+
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.description-section .container {
+    padding-top: 50px;
+
+}
+
+
+.description-section .container .row {
+
+    /* display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; */
+
+}
+
+
+/************************ 1st ror ********************************/
+
+.description-section .container .row .col-12 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+
+
+.description-section .container .row .col-12 .title {}
+
+
+.description-section .container .row .col-12 .title h2 {
+
+
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 10px;
+}
+
+
+
+.description-section .container .row .col-12 .title p {
+
+    width: 51%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+
+}
+
+
+
+
+/************************ 2nd ror ********************************/
+
+
+
+.description-section .container .row .col-4 {}
+
+
+.description-section .container .row .col-4 .media {
+
+    display: flex;
+}
+
+
+.description-section .container .row .col-4 .media .icon {
+    padding-right: 10px;
+
+}
+
+
+.description-section .container .row .col-4 .media .icon .fa {
+
+    font-size: 60px;
+    color: #00bc9c;
+    font-weight: 600;
+}
+
+
+.description-section .container .row .col-4 .media .media-description {}
+
+
+.description-section .container .row .col-4 .media .media-description h5 {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+
+}
+
+
+.description-section .container .row .col-4 .media .media-description p {
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #73879c;
+
+}
+
+
+
+
+
+
+
+
+/***************************************
+
+        check out-section css start 
+
+*****************************************/
+
+
+.check-out-section {
+
+
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f2f5f7;
+}
+
+
+.check-out-section .container {
+    padding-top: 50px;
+
+}
+
+
+.check-out-section .container .row {
+
+
+}
+
+
+/******************************************* 1st row *********************************************/
+
+
+.check-out-section .container .row .col-12 {
+
+    text-align: center;
+}
+
+
+.check-out-section .container .row .col-12 .title {
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+
+.check-out-section .container .row .col-12 .title h2 {
+
+
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+
+
+
+
+.check-out-section .container .row .col-12 .title p {
+
+
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+
+}
+
+
+
+
+
+/******************************************* 2nd row *********************************************/
+
+
+.check-out-section .container .row .col-6 {
+
+    padding-bottom: 10px;
+
+}
+
+
+
+.check-out-section .container .row .col-6 .identity {}
+
+
+
+
+
+.check-out-section .container .row .col-6 .identity img {
+
+
+    width: 100%;
+    padding: 30px 0px;
+    transition: 0.5s;
+}
+
+
+.check-out-section .container .row .col-6 .identity img:hover {
+
+
+    transform: rotate(5deg);
+    transition: 0.5s;
+
+}
+
+
+
+/******************************************* 3rd row *********************************************/
+
+.check-out-section .container .row .col-3 {
+    padding: 25px 5px;
+
+}
+
+
+
+.check-out-section .container .row .col-3 .card {}
+
+
+.check-out-section .container .row .col-3 .card img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/***************************************
+
+       check out section css end 
+
+*****************************************/
+
+
+
+
+
+/***************************************
+
+       work section css start 
+
+*****************************************/
+
+
+.work-section {}
+
+.work-section .container {}
+
+
+.work-section .container .row {}
+
+
+.work-section .container .row .col-12 {}
+
+.work-section .container .row .col-12 .title {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+
+.work-section .container .row .col-12 .title h2 {
+
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 25px;
+
+
+}
+
+
+.work-section .container .row .col-12 .title p {
+
+
+    width: 53%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+    margin: 0px auto 50px;
+}
+
+
+.work-section .container .row .col-12 .title a {
+    
+    background-color: #00bc9c;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    transition: 0.5s;
+}
+
+
+
+
+
+.work-section .container .row .col-12 .title a:hover {
+
+    color: #00bc9c;
+    background-color: transparent;
+    border-color: #17a2b8;
+    transition: 0.5s;
+}
+
+
+
+
+
+.work-section .container .row .col-12 .title a .btn {
+
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+
+
+
+}
+
+
+
+
+
+
+
+
+/***************************************
+
+      work section css end 
+
+*****************************************/
+
+
+
+
+
+/***************************************
+
+      footer section css start 
+
+*****************************************/
+
+
+.footer-section{
+
+    
+}
+
+
+
+/************************************** TOP Footer  ************************ */
+
+
+.footer-section .top-footer {
+
+    background: #2f4052;
+}
+
+
+
+.footer-section .top-footer .container {
+
+
+padding: 80px 0px 100px 0px;
+
+}
+
+
+.footer-section .top-footer .container .row  {}
+
+
+.footer-section .top-footer .container .row .col-3 {}
+
+.footer-section .top-footer .container .row .col-3 .inner-widget{}
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget h4{
+
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+/********************* 1st Col  ***********************/
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget img{
+
+    padding: 2px 0px 10px 0px;
+   
+}
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget p{
+
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+    padding: 10px 0px;
+
+}
+
+.footer-section .top-footer .container .row .col-3 .inner-widget a{
+
+    color: #a3b1bf;
+    text-decoration: none;
+}
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget a:hover{
+
+    color: #fff;
+   text-decoration-line: underline;
+}
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget a i{
+
+    margin-left: 10px;
+}
+
+
+
+/********************* 2nd Col  ***********************/
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget .row-cols-1 .mb-4 {
+
+    margin-bottom: 0.5rem!important;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget .row-cols-1 .mb-4 .card {
+
+    border: none;
+    border-radius: 0;
+   
+}
+
+
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget .row-cols-1 .mb-4 .card img{
+
+
+    margin-bottom: 0;
+
+}
+
+   
+
+
+
+
+/********************* 3rd Col  ***********************/
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget p .fa {
+    margin-right: 10px;
+}
+
+
+
+
+
+/********************* 4th Col  ***********************/
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget   .footer-form {
+    width: 100%;
+    position: relative;
+
+}
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget   .footer-form .form-control {
+    height: auto;
+    padding: 11px 4px;
+    background-color: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    color: #828e99 !important;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
+
+
+
+
+.footer-section .top-footer .container .row .col-3 .inner-widget   .footer-form  .btn-primary {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    background-color: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #00bc9c;
+
+}
+
+
+
+
+/************************************** Bottom Footer  ************************ */
+
+
+
+
+
+.footer-section .bottom-footer   {
+
+
+    width: 100%;
+    padding: 20px 0px 0px;
+    background-color: #283645;
+}
+
+
+.footer-section .bottom-footer .container   {}
+
+
+.footer-section .bottom-footer .container .row   {}
+
+
+
+.footer-section .bottom-footer .container .row .col-6  {}
+
+
+.footer-section .bottom-footer .container .row .col-6  p {
+
+    color: #616f7d;
+    font-size: 14px;
+
+}
+
+
+
+
+.footer-section .bottom-footer .container .row .col-6   .inner-menu{
+
+    display: block;
+}
+
+
+.footer-section .bottom-footer .container .row .col-6   .inner-menu li{
+
+    list-style: none;
+    display: inline-block;
+    color: #616f7d;
+    margin-right: 10px;
+}
+
+.footer-section .bottom-footer .container .row .col-6   .inner-menu li i{
+
+    font-size: 5px;
+    vertical-align: middle;
+
+}
+    
+
+
+
+
+
+
+
+
+
+/***************************************
+
+      footer section css end 
+
+*****************************************/
